@@ -1,6 +1,6 @@
 import React from 'react';
 import Square from './Square';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import { playMove } from './actions';
 import calculateWinner from './calculateWinner';
 
